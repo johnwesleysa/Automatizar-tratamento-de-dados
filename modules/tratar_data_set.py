@@ -51,6 +51,7 @@ def tratar_data_set():
     def validar_emails(email):
         return validate_email(email, check_deliverability=True)
 
+    # Dados públicos extraídos de fontes oficiais das unidades escolares (site, Google, redes sociais)
     enderecos_elevas = {
         'Barra': [{
             'endereco': 'Av. José Silva de Azevedo Neto 309 - Barra da Tijuca - Rio de Janeiro - RJ',
